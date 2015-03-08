@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  GoogleTextField
+
+  Created by Bechir Arfaoui on 08/03/15.
+  Copyright (c) 2015 Bechir Arfaoui. All rights reserved.
+*/
+"placeholder" = "Search or type URL";
