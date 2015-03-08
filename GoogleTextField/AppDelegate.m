@@ -17,12 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"here");
     self.viewController = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    NSLog(@"here2");
     // Override point for customization after application launch.
     return YES;
 }

@@ -33,9 +33,6 @@
     
 }
 
-- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
-    NSLog(@"agree");
-}
 - (void)moveTextFieldUp{
     [UIView animateWithDuration:0.3
                           delay:0.0
